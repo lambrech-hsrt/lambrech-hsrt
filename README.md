@@ -1,3 +1,5 @@
+# Overview: ArgoCD vs. Flux
+
 | Szenario / Kriterium             | Flux v2                                                 | ArgoCD                                                        |
 |----------------------------------|---------------------------------------------------------|---------------------------------------------------------------|
 | **Installation**                 | ✅ Klarer Einstieg, Verweise nach der Installation       | ⚠️ mangelnde Unterstützung nach der Installation              |
