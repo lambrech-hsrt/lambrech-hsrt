@@ -5,6 +5,8 @@
 | **Installation**                 | ✅ Klarer Einstieg, Verweise nach der Installation       | ⚠️ mangelnde Unterstützung nach der Installation              |
 | **Bootstrapping**                | ✅ standardmäßig über Flux CLI                           | ✅ argocd-autopilot                                            |
 | **CRD / Pruning**                | ✅ unterstützt                                           | ✅ unterstützt                                                 |
+| **Eigenes Userverwaltungssystem**                | ⛔ nein, kubernetes Nativ                                           | ✅ Ja, über die ArgoCD CM           |
+| **Eigenes Berechtigungssystem**              | ⛔ Nein, kubernetes nativ                                           | ✅ Ja, RBAC CM                          |
 | **GUI / CLI**                    | ⚠️ Weniger Funktionalitäten                              | ✅ Viele Funktionalitäten                                      |
 | **Zugriff auf Ressourcen via UI**| ⛔ nicht unterstützt, nur über CLI                       | ✅ unterstützt                                                 |
 | **Self Healing**                 | ⚠️ Voll (aber Helm manuelle Änderungen nötig). Standardmäßig nicht vorhanden | ✅ Volle Unterstützung (standardmäßig deaktiviert)            |
