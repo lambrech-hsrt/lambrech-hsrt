@@ -14,6 +14,7 @@
 | **Berechtigungen**               | ⚠️ kein eigenes Management System (Kubernetes nativ über Kubeconfig), SSO für UI | ✅ eigenes System (RBAC), SSO für UI und CLI                  |
 | **Observability**                | ⚠️ Monitoring, Alerting, Notification Controller (27 Provider), kein SMTP (nur über Workarounds) | ⚠️ Monitoring, Alerting, Notification Controller (19 Provider), SMTP, keine git commit Status updates |
 | **CMT**                          | ✅ Helm (über CLI erreichbar), Kustomize                  | ⚠️ Helm (über Helm CLI nicht erreichbar), Kustomize           |
+| **feingranulare CRD**                          | ✅ Alles ist eine CRD                  | ⚠️ nicht alles ist eine CRD (z.B. Helm Releases)            |
 | **OCI-Artifacts**                | ✅ unterstützt                                           | ⛔ nicht unterstützt                                           |
 | **Patterns & Best Practices**    | ⚠️ Multi-cluster support, Repo Support, Keine Dokumentation oder Hinweise zu “Instance per namespace” | ✅ Multi-cluster support, Repo Support, Instance per Namespace |
 
