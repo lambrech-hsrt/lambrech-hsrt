@@ -1,4 +1,4 @@
-# Overview: ArgoCD vs. Flux
+# Overview: ArgoCD vs. Flux June 2024 | Bachelor-thesis
 
 | Szenario / Kriterium             | Flux v2                                                 | ArgoCD                                                        |
 |----------------------------------|---------------------------------------------------------|---------------------------------------------------------------|
